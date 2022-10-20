@@ -1,0 +1,41 @@
+/* filter */
+
+.filter:hover,
+.filter:focus {
+    color: var(--white-text-color);
+    background-color: var(--secondary-logo-color);
+}
+
+.filter {
+    color: #212121;
+    background-color: rgba(245, 244, 250, 1);
+
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        cursor: pointer;
+}
+
+/* work */
+
+.title {
+color: var(--primary-text-color);
+
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.text {
+    color: var(--secondary-text-color);
+
+font-weight: 400;
+font-size: 16px;
+    line-height: 1.8;
+    
+}
+.link {
+    text-decoration: none;
+}

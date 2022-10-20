@@ -1,0 +1,76 @@
+/* hero */
+
+.hero-title{
+    color: var(--white-text-color);
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;  
+        text-align: center;
+        letter-spacing: 0.06em;
+        
+}
+ .button-hero {
+color: var(--white-text-color);
+background-color: var(--secondary-logo-color);
+        
+     font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+ cursor: pointer;
+    }
+
+.bgchero {
+background-color: rgba(47, 48, 58, 1);
+}
+
+/* features */
+
+.title-feature {
+
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.text {
+color: var(--secondary-text-color);
+
+
+    font-size: 14px;
+    line-height: 1.7;
+    
+}
+
+/* work */
+
+.title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+     
+}
+
+/* team */
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.team .text {
+color: var(--secondary-text-color);
+
+
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+
+   .bgct {
+    background-color: rgba(245, 244, 250, 1);
+   }
