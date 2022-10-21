@@ -3,7 +3,7 @@
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-        padding: 200px;
+        padding: 94px;
 }
 
 /* hero */
@@ -73,6 +73,11 @@ color: var(--secondary-text-color);
      
 }
 
+.item {
+
+    padding-top: 92px;
+    padding-bottom: 0px;
+}
 /* team */
 
 .name {
