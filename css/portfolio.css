@@ -4,6 +4,7 @@
     padding-right: 15px;
     margin: 0 auto;
     padding: 94px;
+    /* outline: 2px solid red; */
 }
 
 /* filter */
@@ -40,6 +41,12 @@ padding: 6px 25px;
 
 /* work */
 
+.item {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    /* outline: 2px solid red; */
+}
+
 .title {
 color: var(--primary-text-color);
 
@@ -47,7 +54,10 @@ color: var(--primary-text-color);
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+            margin-top: 20px;
+                margin-bottom: 0px;
 }
+
 
 .text {
     color: var(--secondary-text-color);
@@ -55,8 +65,13 @@ color: var(--primary-text-color);
 font-weight: 400;
 font-size: 16px;
     line-height: 1.8;
-    
+    margin-top: 4px;
+    margin-bottom: 0px;
 }
 .link {
     text-decoration: none;
+}
+
+.border-item {
+    border: 1px solid rgba(238, 238, 238, 1);
 }
