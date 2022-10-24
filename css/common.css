@@ -38,6 +38,17 @@ body {
 
 /* head */
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav {
+display: flex;
+align-items: center;
+
+}
+
 .logo {
     color: var(--primary-logo-color);
 
@@ -46,6 +57,8 @@ body {
     font-size: 26px;
     line-height: 1.1;
     text-decoration: none;
+
+    margin-right: 93px;
 }
 
 .logo-accent {
@@ -60,6 +73,21 @@ body {
     
 }
 
+    .list-nav {
+        display: flex;
+    
+}
+
+.li-nav {
+margin-right: 50px;
+/* border: 2px solid red; */
+}
+
+.li-nav:last-child {
+
+    margin-right: 0px;
+}
+
 .link-nav {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -67,12 +95,20 @@ body {
         line-height: 16px;
         letter-spacing: 1.1;
         text-decoration: none;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: block;
 }
 
 .link-nav:hover,
 .link-nav:focus {
     color: var(--secondary-logo-color);
  }
+
+.list-contact {
+    display: flex;
+    margin-left: auto;
+}
 
 .link-contact {
     color: var(--secondary-text-color);
@@ -81,6 +117,16 @@ body {
         line-height: 1.1;
         letter-spacing: 0.02em;
         text-decoration: none;
+
+        
+}
+
+.link-item {
+margin-right: 50px;
+}
+
+.link-item:last-child {
+    margin-right: 0px;
 }
 
 .link-contact:hover,
