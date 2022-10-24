@@ -3,11 +3,27 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     /* outline: 2px solid red; */
 }
 
 /* filter */
+
+.list-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.item-filter {
+margin-right: 8px;
+
+}
+
+.item-filter:last-child {
+    margin-right: 0px;
+
+}
 
 .filter:hover,
 .filter:focus {
@@ -41,10 +57,21 @@ padding: 6px 25px;
 
 /* work */
 
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .item {
     margin-top: 34px;
     margin-bottom: 0px;
     /* outline: 2px solid red; */
+    margin-right: 30px;
+    width: 370px;
+}
+
+.item:nth-child(3n+3) {
+    margin-right: 0px;
 }
 
 .title {
