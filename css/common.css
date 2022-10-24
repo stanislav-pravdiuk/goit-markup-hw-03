@@ -28,6 +28,9 @@ body {
     letter-spacing: 0.03em;
 }
 
+img {
+    display: block;
+}
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -156,8 +159,22 @@ background-color: rgba(47, 48, 58, 1);
 
 }
 
+.logo-footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
 .night-theme {
     color: white;
+}
+
+.item-adress {
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.item-adress:last-child {
+    padding-bottom: 60px;
 }
 
 .location {
