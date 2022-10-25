@@ -156,11 +156,13 @@ margin-right: 50px;
 
 .footer-background {
 background-color: rgba(47, 48, 58, 1);
+padding-top: 60px;
+padding-bottom: 60px;
 
 }
 
 .logo-footer {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 20px;
 }
 
@@ -174,7 +176,7 @@ background-color: rgba(47, 48, 58, 1);
 }
 
 .item-adress:last-child {
-    padding-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .location {

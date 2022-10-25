@@ -1,8 +1,8 @@
 .section {
-    width: 1200px;
-        padding-left: 15px;
+    /* width: 1200px; */
+        /* padding-left: 15px;
         padding-right: 15px;
-        margin: 0 auto;
+        margin: 0 auto; */
         padding-top: 94px;
         padding-bottom: 94px;
         /* outline: 2px solid red; */
@@ -49,6 +49,8 @@ text-align: center;
 
 /* features */
 
+
+
 .title-feature {
 
     
@@ -70,7 +72,7 @@ text-align: center;
 }
 
 .feature-item:last-child {
-margin-left: 0px;
+margin-right: 0px;
 }
 
 .text-feature {
@@ -84,6 +86,10 @@ color: var(--secondary-text-color);
 }
 
 /* work */
+
+.reset-p {
+    padding-top: 0px;
+}
 
 .work-list {display: flex;}
 
@@ -108,13 +114,24 @@ color: var(--secondary-text-color);
 
 /* team */
 
+.title-team {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+}
+
 .list-team {
     display: flex;
 }
 
 .item-team {
 
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 0px;
     /* outline: 2px solid red; */
     margin-right: 30px;
