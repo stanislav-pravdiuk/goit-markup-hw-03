@@ -31,12 +31,12 @@ body {
 img {
     display: block;
 }
+
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
 }
 
 /* head */
@@ -47,9 +47,8 @@ img {
 }
 
 .logo-nav {
-display: flex;
-align-items: center;
-
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -66,41 +65,37 @@ align-items: center;
 
 .logo-accent {
     color: var(--secondary-logo-color)
-    
 }
 
 .list {
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
-    .list-nav {
-        display: flex;
-    
+.list-nav {
+    display: flex;
 }
 
 .li-nav {
-margin-right: 50px;
-/* border: 2px solid red; */
+    margin-right: 50px;
 }
 
 .li-nav:last-child {
-
     margin-right: 0px;
 }
 
 .link-nav {
     color: var(--primary-text-color);
     font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 1.1;
-        text-decoration: none;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        display: block;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.1;
+    text-decoration: none;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .link-nav:hover,
@@ -116,16 +111,14 @@ margin-right: 50px;
 .link-contact {
     color: var(--secondary-text-color);
     font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-
-        
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .link-item {
-margin-right: 50px;
+    margin-right: 50px;
 }
 
 .link-item:last-child {
@@ -143,26 +136,23 @@ margin-right: 50px;
 
 /* body */
 
-.visually-hidden
-{
-        position: absolute;
-        clip: rect(0 0 0 0);
-        width: 1px;
-        height: 1px;
-        margin: -1px;
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
     }
 
 /* footer */
 
 .footer-background {
-background-color: rgba(47, 48, 58, 1);
-padding-top: 60px;
-padding-bottom: 60px;
-
+    background-color: rgba(47, 48, 58, 1);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
-    /* padding-top: 60px; */
     padding-bottom: 20px;
 }
 
@@ -194,15 +184,15 @@ padding-bottom: 60px;
 }
 
 .contact {
-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 
-        font-size: 14px;
-        line-height: 1.7;
-        text-decoration: none;
-        font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .contact:hover,
 .contact:focus {
-color: var(--secondary-logo-color);
+    color: var(--secondary-logo-color);
 }
